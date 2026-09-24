@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#criando a string na variavel taxa:
+#criando/salvando a string na variavel taxa:
 >>> taxa = "sapiens, erectus, neanderthalensis"
 >>> print(taxa)
 sapiens, erectus, neanderthalensis
@@ -12,6 +12,7 @@ s
 >>> print(taxa[3])
 i
 >>> print(taxa[2])
+p
 
 #imprimindo a classificação da variável:
 >>> print(type(taxa))
