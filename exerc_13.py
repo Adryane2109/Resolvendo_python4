@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 bases_nitrogenadas = ['ATGCCCGGCCCGGC', 'GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT', 'ATGGGCCC']
 
-tuplas = [(i, len(DNA), DNA) for i, DNA in enumerate(bases_nitrogenadas, start=1)]
-
-for numero, comprimento, DNA in tuplas:
-    print(numero, comprimento, DNA, sep="\t")
+#imprimindo a posição, o comprimento e a sequência:
+for posicao, dna in enumerate(bases_nitrogenadas, start=1):
+    print(posicao, len(dna), dna, sep="\t")
