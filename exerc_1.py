@@ -31,20 +31,23 @@ ler
 #removendo elemento do final com o método pop:
 >>> coisas_que_gosto.pop(-1)
 'Deus'
->>> print(coisas_que_gosto.pop(-1))
-dormir
-
-#removendo elemento do começo ou de qualquer posição da lista:
->>> print(coisas_que_gosto.pop(1))
-café
->>> print(coisas_que_gosto.pop(0))
-viajar
->>> print(coisas_que_gosto.pop(3))
-piano
 >>> print(coisas_que_gosto)
-['amiga Jesca', 'goodbye song', 'sabados']
+['viajar', 'café', 'amiga Jesca', 'goodbye song', 'sabados', 'piano', 'dormir']
+
+#removendo elemento do começo da lista:
+>>> coisas_que_gosto.pop(0)
+'viajar'
+>>> print(coisas_que_gosto)
+['café', 'amiga Jesca', 'goodbye song', 'sabados', 'piano', 'dormir']
+
+#removendo elemento de qualquer posição (que não seja no início ou no final):
+>>> coisas_que_gosto.pop(1)
+'amiga Jesca'
+>>> coisas_que_gosto.pop(2)
+'sabados'
+>>> print(coisas_que_gosto)
+['café', 'goodbye song', 'piano', 'dormir']
 
 #criando uma string com o método join e juntando os elementos com vírgula:
 >>> ",".join(coisas_que_gosto)
-'amiga Jesca,goodbye song,sabados'
-
+'café,goodbye song,piano,dormir'
