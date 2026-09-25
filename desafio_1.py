@@ -9,4 +9,4 @@ for i in range(len(sequencia)):
     B = randrange(len(sequencia))
     sequencia[A], sequencia[B] = sequencia[B], sequencia[A]
 
-print("".join(sequencia))
+print(sequencia)
