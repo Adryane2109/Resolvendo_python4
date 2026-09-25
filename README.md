@@ -1,2 +1,2 @@
 # Resolvendo_python4
-Solutions for PFB Problem Sets
+Na linha de comando, o usuário deve executar o script utilizando python3.
