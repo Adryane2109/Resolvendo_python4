@@ -3,12 +3,14 @@
 seq1 = "ATGAACC-GA"
 seq2 = "ATGCACT-GA"
 
-identicas = 0
+identidades = 0
 
+#para comparar os nucleotídeos em cada índice e contar as identidades
 for i in range(len(seq1)):
     if seq1[i] == seq2[i]:
-        identicas += 1
+        identidades += 1
 
-identidade = (identicas / len(seq1)) * 100
+#para calcular a porcentagem de identidade das duas sequências
+identidade = (identidades / len(seq1)) * 100
 
-print("Identidade:", identidade, "%")
+print(identidade)
