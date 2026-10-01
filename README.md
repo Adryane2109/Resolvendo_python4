@@ -1,2 +1,2 @@
 # Resolvendo_python4
-Na linha de comando, o usuário deve executar o script utilizando python3.
+Os scripts devem ser executados utilizando 'python3' na linha de comando.
