@@ -2,7 +2,8 @@
 bases_nitrogenadas = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCCC']
 
 #print de cada elemento:
-print(bases_nitrogenadas)
+for dna in bases_nitrogenadas:
+	print(dna)
 
 #imprimindo o comprimento e a sequência (separados por uma guia):
 for dna in bases_nitrogenadas:
